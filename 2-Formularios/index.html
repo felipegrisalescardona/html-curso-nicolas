@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <!-- fieldset agrupará los campos -->
+        <fieldset>
+            <!-- Legend dentro de fieldset permitirá darle un título al formulario -->
+            <legend>
+                Formulario de datos personales
+            </legend>
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text"/>
+            <label for="descripcion">Descripción</label>
+            <input name="descripcion" type="textarea"/>
+            <label for="email">EMail</label>
+            <input name="email" type="email"/>
+            <label for="edad">Edad</label>
+            <input name="edad" type="number"/>
+            <label for="contrasena">Contraseña</label>
+            <input name="contrasena" type="password"/>
+            <input type="submit"/>
+            <label for="personaje-favorito">Personaje Favorito</label>
+            <select name="personaje-favorito">
+                <option value="annie">Annie</option>
+                <option value="maokai">Maokai</option>
+                <option value="renekton">Renekton</option>
+            </select>
+        <button type="submit">Aceptar</button>
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>
